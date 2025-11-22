@@ -14,8 +14,8 @@ directory = "dist"
 binding = "ASSETS"
 
 [[r2_buckets]]
-binding = "R2"
-bucket_name = "r2-bucket"
+binding = "BUCKET"
+bucket_name = "lucas-oss"
 
 # ============================================
 # RATE LIMITING CONFIGURATION
