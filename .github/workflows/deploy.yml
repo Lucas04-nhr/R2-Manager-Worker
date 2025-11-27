@@ -23,7 +23,7 @@ jobs:
     
     environment:
       name: production
-      url: https://r2.adamic.tech
+      url: https://r2.lucas04.top
 
     steps:
       - name: Checkout code
@@ -51,6 +51,6 @@ jobs:
         if: success()
         run: |
           echo "✅ Successfully deployed to production"
-          echo "🌐 URL: https://r2.adamic.tech"
+          echo "🌐 URL: https://r2.lucas04.top"
           echo "📝 Commit: ${{ github.sha }}"
           echo "👤 Deployed by: ${{ github.actor }}"
